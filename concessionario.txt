@@ -1,0 +1,21 @@
+TABELLA AUTO
+
+Id: SMALLINT, PK
+Marca: VARCHAR(2O), NOT NULL
+Modello: VARCHAR(30), NOT NULL
+Colore: VARCHAR(30), NOT NULL
+Prezzo: FLOAT(6,2), NOT NULL
+Stato: TINYINT, NOT NULL
+Chilometraggio: SMALLINT, NOT NULL
+Anno di fabbricazione: YEAR, NOT NULL
+Descrizione: TEXT, NULL
+Cambio: VARCHAR(50), NOT NULL
+Carburante: VARCHAR(20), NOT NULL
+Carrozzeria: VARCHAR(30), NOT NULL
+Motore: SMALLINT, NOT NULL
+Cilindrata: SMALLINT, NOT NULL
+Proprietari precedenti: TINYINT, NULL
+Posti: TINYINT, NULL
+Porte: TINYINT, NULL
+Manutenzione: VARCHAR(20), NULL
+Telaio: VARCHAR(20) , UNIQUE
