@@ -4,7 +4,7 @@ Id: SMALLINT, PK
 Marca: VARCHAR(2O), NOT NULL
 Modello: VARCHAR(30), NOT NULL
 Colore: VARCHAR(30), NOT NULL
-Prezzo: FLOAT(6,2), NOT NULL
+Prezzo: FLOAT(8,2), NOT NULL
 Stato: TINYINT, NOT NULL
 Chilometraggio: SMALLINT, NOT NULL
 Anno di fabbricazione: YEAR, NOT NULL
